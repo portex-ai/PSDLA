@@ -1,0 +1,268 @@
+{
+  "license_type": "PSDLA-EX-L",
+  "version": "1.0",
+  "title": "Portex Standard Data License Agreement-Exclusive Limited",
+  "effective_date": "May 23, 2025",
+  "parties": {
+    "platform": {
+      "name": "Portex",
+      "role": "Platform facilitator"
+    },
+    "data_provider": {
+      "role": "Provider of Licensed Data"
+    },
+    "data_buyer": {
+      "role": "Licensee"
+    }
+  },
+  "definitions": {
+    "licensed_data": "Any dataset or portion thereof, including documentation or metadata",
+    "authorized_users": "Employees, contractors, or agents authorized by Data Buyer",
+    "ai_models": "Neural networks, deep learning models, large language models, computer vision models, etc.",
+    "exclusivity_term": "Period during which Data Provider grants exclusive rights"
+  },
+  "license_terms": {
+    "type": "exclusive",
+    "duration": "1 year",
+    "territory": "global",
+    "transferable": false,
+    "revocable": true,
+    "right_of_first_refusal": {
+      "notice_period": "30 days",
+      "acceptance_period": "15 days"
+    }
+  },
+  "exclusivity_provisions": {
+    "sole_licensee": true,
+    "scope_limited": true,
+    "provider_restrictions": {
+      "no_other_licenses": "within defined scope",
+      "no_competing_use": "within defined scope",
+      "no_distribution": "within defined scope",
+      "no_derivative_datasets": "within defined scope"
+    },
+    "provider_reserved_rights": {
+      "internal_research": true,
+      "archival": true,
+      "anonymized_insights": true,
+      "outside_scope_licensing": true
+    }
+  },
+  "provider_specified_limitations": {
+    "exclusive_uses": {
+      "template": {
+        "internal_analysis": "{{internal_analysis_scope}}",
+        "development_testing": "{{development_testing_scope}}",
+        "ai_training": "{{ai_training_scope}}",
+        "commercial_deployment": "{{commercial_deployment_scope}}",
+        "model_distribution": "{{model_distribution_scope}}"
+      }
+    },
+    "non_exclusive_uses": {
+      "template": {
+        "permitted_uses": "{{non_exclusive_permitted_uses}}",
+        "conditions": "{{non_exclusive_conditions}}"
+      }
+    },
+    "prohibited_uses": {
+      "template": {
+        "specific_prohibitions": "{{specific_prohibited_uses}}",
+        "industry_restrictions": "{{prohibited_industries}}",
+        "application_restrictions": "{{prohibited_applications}}"
+      }
+    },
+    "geographic_limitations": {
+      "template": {
+        "exclusive_territories": "{{exclusive_territories}}",
+        "non_exclusive_territories": "{{non_exclusive_territories}}",
+        "excluded_jurisdictions": "{{excluded_jurisdictions}}"
+      }
+    },
+    "time_based_limitations": {
+      "template": {
+        "usage_duration": "{{usage_duration}}",
+        "access_hours": "{{access_hours}}",
+        "renewal_terms": "{{renewal_terms}}"
+      }
+    },
+    "user_access_limitations": {
+      "template": {
+        "max_users": "{{max_authorized_users}}",
+        "user_types": "{{permitted_user_types}}",
+        "access_controls": "{{required_access_controls}}"
+      }
+    },
+    "output_limitations": {
+      "template": {
+        "derivative_works": "{{derivative_work_restrictions}}",
+        "model_outputs": "{{model_output_restrictions}}",
+        "data_products": "{{data_product_restrictions}}"
+      }
+    },
+    "field_of_use_limitations": {
+      "template": {
+        "exclusive_industries": "{{exclusive_industries}}",
+        "non_exclusive_industries": "{{non_exclusive_industries}}",
+        "exclusive_use_cases": "{{exclusive_use_cases}}",
+        "non_exclusive_use_cases": "{{non_exclusive_use_cases}}"
+      }
+    }
+  },
+  "ai_rights": {
+    "model_persistence": {
+      "perpetual_use": true,
+      "commercial_deployment": "{{commercial_deployment_terms}}",
+      "insights_generation": "{{insights_generation_scope}}"
+    },
+    "model_ownership": {
+      "architecture": true,
+      "weights": true,
+      "improvements": true,
+      "outputs": "{{output_restrictions}}"
+    }
+  },
+  "prohibited_uses": {
+    "redistribution": true,
+    "reverse_engineering": true
+  },
+  "compliance": {
+    "gdpr_required": false,
+    "ccpa_required": false,
+    "audit_rights": true
+  },
+  "termination": {
+    "breach_notice_period": "10 days",
+    "effects": {
+      "data_deletion_required": true,
+      "model_rights_survive": true
+    }
+  },
+  "governing_law": "Wyoming",
+  "dispute_resolution": "Arbitration in Cheyenne, Wyoming",
+  "appendix_template": {
+    "title": "Appendix A: Data Provider-Specified Limitations and Exclusive Permitted Uses",
+    "sections": [
+      {
+        "title": "A.1 Exclusive Permitted Uses",
+        "template": "The Data Buyer shall have exclusive rights to use the Licensed Data for:\n{{exclusive_uses_list}}\n\nSpecific conditions and scope for each exclusive use:\n{{exclusive_uses_conditions}}"
+      },
+      {
+        "title": "A.2 Non-Exclusive Permitted Uses",
+        "template": "The Data Buyer may use the Licensed Data on a non-exclusive basis for:\n{{non_exclusive_uses_list}}\n\nConditions for non-exclusive uses:\n{{non_exclusive_conditions}}"
+      },
+      {
+        "title": "A.3 Prohibited Uses",
+        "template": "The Licensed Data shall not be used for:\n{{prohibited_uses_list}}\n\nAdditional restrictions:\n{{additional_restrictions}}"
+      },
+      {
+        "title": "A.4 Geographic Scope of Exclusivity",
+        "template": "Territories where rights are exclusive:\n{{exclusive_territories}}\n\nTerritories where rights are non-exclusive:\n{{non_exclusive_territories}}\n\nExcluded territories:\n{{excluded_territories}}"
+      },
+      {
+        "title": "A.5 Field of Use Limitations",
+        "template": "Industries/fields with exclusive rights:\n{{exclusive_industries}}\n\nIndustries/fields with non-exclusive rights:\n{{non_exclusive_industries}}\n\nExclusive use cases:\n{{exclusive_use_cases}}\n\nNon-exclusive use cases:\n{{non_exclusive_use_cases}}"
+      },
+      {
+        "title": "A.6 Time-Based Limitations",
+        "template": "Duration of exclusive rights:\n{{exclusive_duration}}\n\nAccess restrictions:\n{{time_restrictions}}\n\nRenewal terms:\n{{renewal_terms}}"
+      },
+      {
+        "title": "A.7 User and Access Limitations",
+        "template": "Maximum number of Authorized Users:\n{{max_users}}\n\nUser types and roles:\n{{user_roles}}\n\nAccess control requirements:\n{{access_controls}}"
+      },
+      {
+        "title": "A.8 Output and Derivative Work Limitations",
+        "template": "Restrictions on derivative works:\n{{derivative_restrictions}}\n\nModel output limitations:\n{{output_limitations}}"
+      },
+      {
+        "title": "A.9 Data Provider's Reserved Rights",
+        "template": "Rights reserved by the Data Provider:\n{{reserved_rights}}\n\nConditions for reserved rights:\n{{reserved_rights_conditions}}"
+      },
+      {
+        "title": "A.10 Additional Terms and Conditions",
+        "template": "Additional requirements:\n{{additional_requirements}}\n\nSpecial conditions:\n{{special_conditions}}"
+      }
+    ]
+  },
+  "license_text": [
+    {
+      "section": "10. Indemnification",
+      "subsections": [
+        {
+          "title": "10.1 Data Buyer's Indemnification",
+          "content": "The Data Buyer agrees to defend, indemnify, and hold harmless the Data Provider, the Platform, and their respective officers, directors, employees, and agents from and against any and all claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:\n- The Data Buyer's use or misuse of the Licensed Data;\n- Any breach of this Agreement by the Data Buyer or Authorized Users;\n- Violations of any laws or regulations in connection with the Data Buyer's use of the Licensed Data."
+        },
+        {
+          "title": "10.2 Data Provider and Platform's Indemnification",
+          "content": "Where required by law or applicable contract, the Data Provider and/or the Platform will defend, indemnify, and hold harmless the Data Buyer from any third-party claim alleging that the Licensed Data (in the form provided) infringes or misappropriates such third party's intellectual property rights. This indemnification obligation shall not apply to the extent that the alleged infringement arises from the Data Buyer's misuse, modification, or unauthorized distribution of the Licensed Data."
+        },
+        {
+          "title": "10.3 Data Provider's Exclusivity Breach Indemnification",
+          "content": "The Data Provider agrees to defend, indemnify, and hold harmless the Data Buyer from any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising from the Data Provider's breach of the exclusivity provisions in Section 2.5.1, including but not limited to:\n- Lost profits or business opportunities resulting from the Data Provider granting access to the Licensed Data to third parties during the Exclusivity Term\n- Competitive disadvantages suffered by the Data Buyer due to unauthorized distribution of the Licensed Data\n- Any damages resulting from the Data Provider's failure to maintain exclusivity as promised"
+        }
+      ]
+    },
+    {
+      "section": "11. Term and Termination",
+      "subsections": [
+        {
+          "title": "11.1 Term",
+          "content": "This Agreement begins on the Effective Date and the Exclusivity Term shall be one (1) year from the Effective Date, unless earlier terminated in accordance with this Section. The \"Effective Date\" shall be the date of the completed purchase transaction on the Platform.\n\nAfter the Exclusivity Term expires, this Agreement may continue as a non-exclusive license if mutually agreed upon by the parties, subject to the Data Buyer's right of first refusal as specified in Section 2.5.2."
+        },
+        {
+          "title": "11.2 Termination for Breach",
+          "content": "Either the Data Provider or the Platform may terminate this Agreement immediately if the Data Buyer materially breaches any provision of this Agreement and fails to cure such breach within ten (10) days of receiving written notice of the breach."
+        },
+        {
+          "title": "11.3 Effects of Termination",
+          "content": "Upon termination of this Agreement for any reason:\n\n- The license granted to the Data Buyer in Section 2 is immediately revoked, except for the rights granted under Section 2.3.1 (Model Persistence Rights).\n- The Data Buyer shall cease all use of the Licensed Data in its raw form and securely delete or destroy all copies of the raw Licensed Data in its possession or control.\n- The Data Buyer may continue to use, deploy, and commercialize any AI models that were trained on the Licensed Data prior to termination, in accordance with Section 2.3.\n- The Data Buyer shall not train any new AI models using the Licensed Data after termination.\n- All obligations of confidentiality and non-disclosure under this Agreement shall survive termination."
+        }
+      ]
+    },
+    {
+      "section": "12. Survival",
+      "content": "Any provisions of this Agreement that, by their nature, should survive termination shall remain in effect after termination, including but not limited to:\n- AI model persistence rights (Section 2.3.1)\n- Right of first refusal (Section 2.5.2)\n- Confidentiality obligations\n- Warranties and representations\n- Indemnification provisions\n- Limitations of liability\n- Non-persistence obligations (subject to AI model exceptions)\n- Resale violations and liquidated damages provisions"
+    },
+    {
+      "section": "13. Governing Law and Dispute Resolution",
+      "subsections": [
+        {
+          "title": "13.1 Governing Law",
+          "content": "This Agreement shall be governed by and construed in accordance with the laws of Wyoming without regard to its conflict of law principles."
+        },
+        {
+          "title": "13.2 Dispute Resolution",
+          "content": "If a dispute arises, the parties will attempt to resolve it in good faith. If unresolved after thirty (30) days, any claim shall be finally settled by binding arbitration in Cheyenne, Wyoming. The arbitrator's decision is final and may be entered in any court with jurisdiction."
+        }
+      ]
+    },
+    {
+      "section": "14. Notices",
+      "content": "All notices required or permitted under this Agreement shall be in writing and shall be deemed given when sent by confirmed email. Notices from the Data Buyer shall be relayed by Portex via email (hello@portexai.com) or via the Portex user interface."
+    },
+    {
+      "section": "15. Assignment",
+      "content": "The Data Buyer may not assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the Data Provider. Any attempt to assign in violation of this Section is void."
+    },
+    {
+      "section": "16. Entire Agreement",
+      "content": "This Agreement, together with any addenda, schedules, or exhibits expressly incorporated herein, constitutes the entire agreement between the Parties with respect to its subject matter. It supersedes and replaces all prior or contemporaneous understandings, agreements, or representations, whether written or oral."
+    },
+    {
+      "section": "17. Severability",
+      "content": "If any provision of this Agreement is held to be invalid, illegal, or unenforceable by a court or other tribunal of competent jurisdiction, that provision shall be severed, and the remainder of this Agreement shall remain in full force and effect."
+    },
+    {
+      "section": "18. No Waiver",
+      "content": "No waiver of any breach of any provision of this Agreement shall be deemed a waiver of any subsequent breach, and no waiver shall be valid unless made in writing and signed by an authorized representative of the waiving Party."
+    },
+    {
+      "section": "19. Counterparts",
+      "content": "This Agreement may be executed in one or more counterparts, including via electronic signature or acceptance through the Platform, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument."
+    },
+    {
+      "section": "20. Acceptance",
+      "content": "By completing a purchase of the Licensed Data, You acknowledge that You have read, understood, and agree to abide by these Terms. If You do not agree, You must not purchase or use the Licensed Data."
+    }
+  ]
+} 

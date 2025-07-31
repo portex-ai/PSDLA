@@ -1,0 +1,409 @@
+{
+  "license_type": "PSDLA-RS",
+  "version": "1.0",
+  "title": "Portex Standard Data License Agreement-Revenue-Share",
+  "effective_date": "May 23, 2025",
+  "parties": {
+    "platform": {
+      "name": "Portex",
+      "role": "Platform facilitator"
+    },
+    "data_provider": {
+      "role": "Provider of Licensed Data"
+    },
+    "data_buyer": {
+      "role": "Licensee"
+    }
+  },
+  "definitions": {
+    "licensed_data": "Any dataset or portion thereof, including documentation or metadata",
+    "authorized_users": "Employees, contractors, or agents authorized by Data Buyer",
+    "ai_models": "Neural networks, deep learning models, large language models, computer vision models, etc.",
+    "revenue_generating_products": "Products incorporating AI Models trained on Licensed Data",
+    "gross_revenue": "All revenue from Revenue-Generating Products before deductions",
+    "revenue_share_percentage": "Percentage of Gross Revenue paid to Data Provider",
+    "reporting_period": "Calendar quarter for revenue reporting",
+    "exclusivity_type": "Exclusive, non-exclusive, or field-limited exclusive"
+  },
+  "license_terms": {
+    "type": "configurable",
+    "duration": "{{agreement_term}}",
+    "territory": "global",
+    "transferable": false,
+    "revocable": true,
+    "exclusivity": {
+      "type": "{{exclusivity_type}}",
+      "options": ["non-exclusive", "exclusive", "field-limited"],
+      "field_limitations": "{{field_limitations}}",
+      "duration": "{{exclusivity_duration}}",
+      "right_of_first_refusal": {
+        "enabled": "{{right_of_first_refusal_enabled}}",
+        "notice_period": "{{notice_period}}",
+        "acceptance_period": "{{acceptance_period}}"
+      }
+    }
+  },
+  "revenue_share_terms": {
+    "percentage": "{{revenue_share_percentage}}",
+    "duration": "{{revenue_share_duration}}",
+    "payment": {
+      "frequency": "quarterly",
+      "currency": "{{payment_currency}}",
+      "minimum_payment": "{{minimum_payment}}",
+      "payment_method": "{{payment_method}}"
+    },
+    "reporting": {
+      "frequency": "quarterly",
+      "requirements": {
+        "gross_revenue": true,
+        "product_breakdown": true,
+        "calculation_methodology": true,
+        "supporting_documentation": true
+      }
+    },
+    "audit_rights": {
+      "frequency": "annual",
+      "notice_period": "30 days",
+      "scope": {
+        "financial_records": true,
+        "revenue_calculations": true,
+        "product_usage": true
+      },
+      "cost_bearing": {
+        "standard_audit": "data_buyer",
+        "discrepancy_found": "data_buyer",
+        "no_discrepancy": "data_provider"
+      }
+    },
+    "revenue_attribution": {
+      "direct_revenue": true,
+      "derivative_works": true,
+      "api_services": true,
+      "bundled_products": "{{bundled_revenue_attribution}}",
+      "reseller_arrangements": "{{reseller_revenue_attribution}}"
+    },
+    "model_revenue_persistence": {
+      "duration": "life_of_product",
+      "termination_effects": "revenue_share_continues"
+    }
+  },
+  "permitted_uses": {
+    "internal_analysis": {
+      "allowed": true,
+      "revenue_share_applies": false
+    },
+    "development_testing": {
+      "allowed": true,
+      "revenue_share_applies": false
+    },
+    "ai_training": {
+      "allowed": true,
+      "revenue_share_applies": false
+    },
+    "commercial_deployment": {
+      "allowed": true,
+      "revenue_share_applies": true,
+      "attribution_required": true
+    },
+    "model_distribution": {
+      "allowed": true,
+      "revenue_share_applies": true,
+      "attribution_required": true
+    }
+  },
+  "ai_rights": {
+    "model_persistence": {
+      "perpetual_use": true,
+      "commercial_deployment": true,
+      "insights_generation": true,
+      "revenue_share_continues": true
+    },
+    "model_ownership": {
+      "architecture": true,
+      "weights": true,
+      "improvements": true,
+      "outputs": true
+    }
+  },
+  "prohibited_uses": {
+    "redistribution": true,
+    "reverse_engineering": true
+  },
+  "compliance": {
+    "gdpr_required": false,
+    "ccpa_required": false,
+    "audit_rights": true
+  },
+  "termination": {
+    "breach_notice_period": "10 days",
+    "effects": {
+      "data_deletion_required": true,
+      "model_rights_survive": true,
+      "revenue_share_continues": true
+    }
+  },
+  "governing_law": "Wyoming",
+  "dispute_resolution": "Arbitration in Cheyenne, Wyoming",
+  "appendix_template": {
+    "title": "Appendix A: Revenue Share Configuration",
+    "sections": [
+      {
+        "title": "A.1 Exclusivity Configuration",
+        "template": "Type of exclusivity:\n{{exclusivity_type}}\n\nField limitations (if field-limited):\n{{field_limitations}}\n\nExclusivity duration:\n{{exclusivity_duration}}\n\nRight of first refusal:\n{{right_of_first_refusal_enabled}}\n\nNotice period:\n{{notice_period}}\n\nAcceptance period:\n{{acceptance_period}}"
+      },
+      {
+        "title": "A.2 Revenue Share Terms",
+        "template": "Revenue share percentage:\n{{revenue_share_percentage}}\n\nDuration of revenue share obligation:\n{{revenue_share_duration}}"
+      },
+      {
+        "title": "A.3 Payment Configuration",
+        "template": "Payment currency:\n{{payment_currency}}\n\nMinimum payment threshold:\n{{minimum_payment}}\n\nPayment method:\n{{payment_method}}"
+      },
+      {
+        "title": "A.4 Attribution Requirements",
+        "template": "Attribution format:\n{{attribution_format}}\n\nPlacement requirements:\n{{attribution_placement}}"
+      },
+      {
+        "title": "A.5 Revenue-Generating Product Definition",
+        "template": "Products subject to revenue share:\n{{revenue_products_list}}\n\nExcluded products:\n{{excluded_products}}"
+      },
+      {
+        "title": "A.6 Excluded Revenue Streams",
+        "template": "Revenue types excluded from calculation:\n{{excluded_revenue_types}}\n\nExclusion justification:\n{{exclusion_justification}}"
+      },
+      {
+        "title": "A.7 Additional Terms",
+        "template": "Special conditions:\n{{special_conditions}}\n\nCustom requirements:\n{{custom_requirements}}"
+      }
+    ]
+  },
+  "license_text": [
+    {
+      "section": "Introduction",
+      "content": "This Data License Agreement (the \"Agreement\") is entered into by and between:\n\n- **Portex** (\"Platform\"), a platform that enables the purchase of datasets via stablecoins, and\n- The **\"Data Provider,\"** who makes available certain datasets (\"Licensed Data\") for purchase on the Platform, and\n- The **\"Data Buyer\"** (also referred to as \"Licensee\" or \"You\"), who purchases the right to access and use the Licensed Data from the Data Provider via the Platform.\n\nPortex acts as a facilitator between the Data Provider and the Data Buyer and is not a direct party to the license terms except as stated herein. By accessing or using the Licensed Data, You confirm that You have read, understood, and agree to be bound by these Terms. If You do not agree with these Terms, You must not purchase or use the Licensed Data."
+    },
+    {
+      "section": "1. Definitions",
+      "content": "1. **\"Licensed Data:\"** Any dataset or portion thereof, including any documentation or metadata, purchased through the Platform.\n2. **\"Data Buyer\" or \"Licensee:\"** The individual or entity that acquires the right to use the Licensed Data under this Agreement.\n3. **\"Data Provider:\"** The individual or entity that owns or has rights to the Licensed Data and grants the License under the terms of this Agreement.\n4. **\"Authorized Users:\"** Employees, contractors, or agents authorized by the Data Buyer to access and use the Licensed Data solely for the Permitted Uses defined in Section 2.\n5. **\"Confidential Information:\"** Any non-public information that is disclosed under this Agreement, including the Licensed Data, technical information, or business information that is either marked or inferred from the Licensed Data, including the dataset itself.\n6. **\"Platform:\"** The Portex platform that facilitates the listing, purchase, and delivery of datasets via a User Interface, API, or AI agent.\n7. **\"AI Models:\"** Any artificial intelligence or machine learning models, including but not limited to neural networks, deep learning models, large language models, computer vision models, or other computational models that learn patterns from data through training processes, along with their associated weights, biases, parameters, and architectures.\n8. **\"Revenue-Generating Products:\"** Any products, services, applications, or systems that (i) incorporate AI Models trained on the Licensed Data, (ii) use outputs or insights derived from such AI Models, or (iii) otherwise leverage the Licensed Data for commercial purposes.\n9. **\"Gross Revenue:\"** All revenue actually received by the Data Buyer from the sale, licensing, or provision of Revenue-Generating Products, before deductions for taxes, discounts, returns, or allowances, but excluding shipping charges and sales taxes collected.\n10. **\"Revenue Share Percentage:\"** The percentage of Gross Revenue to be paid to the Data Provider as specified in Section 5.\n11. **\"Reporting Period:\"** Each calendar quarter during which Revenue-Generating Products are sold or licensed.\n12. **\"Exclusivity Type:\"** The type of exclusivity granted for this license as specified by the Data Provider (exclusive, non-exclusive, or field-limited exclusive)."
+    },
+    {
+      "section": "2. Grant of License",
+      "subsections": [
+        {
+          "title": "2.1 Scope of License",
+          "content": "Subject to the terms and conditions of this Agreement, upon receipt of full payment of the initial license fee, and ongoing payment of revenue share as specified in Section 5, the Data Provider grants the Data Buyer a limited, non-transferable, and revocable license to access and use the Licensed Data solely for the Permitted Uses set forth below. The exclusivity of this license (exclusive, non-exclusive, or field-limited exclusive) shall be as specified by the Data Provider at the time of purchase."
+        },
+        {
+          "title": "2.2 Permitted Uses",
+          "content": "Subject to the revenue sharing obligations in Section 5, the Data Buyer may:\n\n- **Internal Data Analysis:** The Data Buyer may use the Licensed Data internally to conduct research, analysis, or to derive insights.\n- **Development and Testing:** The Data Buyer may incorporate the Licensed Data in the development and testing of internal models, prototypes, or applications, provided that such use does not violate the Prohibited Uses in Section 3.\n- **AI/ML Model Training:** The Data Buyer may use the Licensed Data to train, fine-tune, or otherwise develop artificial intelligence and machine learning models, including but not limited to neural networks, large language models, computer vision models, and other AI systems.\n- **Commercial AI Deployment:** The Data Buyer may deploy AI models trained on the Licensed Data in commercial products and services, subject to the revenue sharing obligations specified in this Agreement.\n- **Model Distribution:** The Data Buyer may distribute, sell, or otherwise commercialize AI models trained on the Licensed Data, provided that (i) such models do not enable the reconstruction or extraction of the Licensed Data in its raw or substantially similar form, and (ii) all revenue from such distribution is subject to the revenue sharing obligations herein."
+        },
+        {
+          "title": "2.3 AI-Specific Provisions",
+          "subsections": [
+            {
+              "title": "2.3.1 Model Persistence Rights",
+              "content": "The Data Seller acknowledges that AI models trained on the Licensed Data incorporate the data into model weights, biases, and embeddings in a transformed manner. The Data Buyer shall have the perpetual right to:\n\n- Continue using AI models trained on the Licensed Data even after termination of this Agreement\n- Deploy, distribute, and commercialize such trained models without time limitation\n- Generate outputs, predictions, and insights from such models indefinitely"
+            },
+            {
+              "title": "2.3.2 Limitations on Model Use",
+              "content": "Notwithstanding the above rights, the Data Buyer shall not:\n\n- Use trained models to reconstruct, reverse-engineer, or extract the Licensed Data in its original or substantially similar form\n- Create synthetic datasets that substantially replicate the Licensed Data for redistribution\n- Train models specifically designed to memorize and regurgitate the Licensed Data verbatim"
+            }
+          ]
+        },
+        {
+          "title": "2.4 Territory",
+          "content": "The license granted herein is valid globally unless restricted by any applicable laws or regulations specific to the Data Buyer's or Data Provider's jurisdictions."
+        }
+      ]
+    },
+    {
+      "section": "5. Revenue Sharing and Payments",
+      "subsections": [
+        {
+          "title": "5.1 Revenue Share Percentage",
+          "content": "The Data Buyer shall pay to the Data Provider {{revenue_share_percentage}}% of all Gross Revenue derived from Revenue-Generating Products. This revenue share obligation shall continue for the duration specified in Appendix A."
+        },
+        {
+          "title": "5.2 Revenue Attribution",
+          "content": "The Data Buyer shall implement and maintain systems and procedures to accurately track and attribute revenue from Revenue-Generating Products. Such systems shall:\n- Identify and track all products and services that incorporate or are derived from the Licensed Data\n- Calculate the revenue share based on actual sales and usage data\n- Maintain detailed records of all relevant transactions and calculations"
+        },
+        {
+          "title": "5.3 Payment Terms",
+          "content": "Revenue share payments shall be made according to the following terms:\n- Frequency: Quarterly payments for each Reporting Period\n- Due Date: Within 30 days after the end of each Reporting Period\n- Method: As specified in Appendix A\n- Currency: As specified in Appendix A\n- Minimum Payment: Payments below the minimum threshold specified in Appendix A may be accumulated until the threshold is reached"
+        },
+        {
+          "title": "5.4 Reporting Requirements",
+          "content": "The Data Buyer shall provide detailed reports for each Reporting Period, including:\n- Total Gross Revenue from Revenue-Generating Products\n- Breakdown by product or service category\n- Calculation methodology and supporting documentation\n- Any deductions or exclusions applied\n- Such reports shall be certified as accurate by an authorized representative of the Data Buyer"
+        },
+        {
+          "title": "5.5 Late Payments",
+          "content": "Any payments not made when due shall bear interest at the rate of 1.5% per month or the maximum rate permitted by law, whichever is less, from the due date until paid."
+        },
+        {
+          "title": "5.6 Attribution and Tracking",
+          "content": "The Data Buyer shall implement appropriate technical measures to track and attribute revenue from Revenue-Generating Products, including:\n- Unique identifiers for products using the Licensed Data\n- Usage analytics and metrics\n- Revenue allocation methodologies for bundled products"
+        },
+        {
+          "title": "5.7 Most Favored Nation",
+          "content": "If the Data Provider grants any other licensee more favorable revenue share terms for substantially similar uses of the Licensed Data, the Data Provider shall promptly notify the Data Buyer and offer the same terms to the Data Buyer."
+        },
+        {
+          "title": "5.8 AI Model Revenue Persistence",
+          "content": "The revenue share obligations shall continue for the life of any Revenue-Generating Products, even after termination of this Agreement, provided such products were developed during the term of this Agreement."
+        }
+      ]
+    },
+    {
+      "section": "6. Audit Rights",
+      "subsections": [
+        {
+          "title": "6.1 Right to Audit",
+          "content": "The Data Provider shall have the right to audit the Data Buyer's records and systems related to Revenue-Generating Products and revenue share calculations. Such audits may be conducted:\n- No more frequently than once per calendar year\n- Upon at least 30 days' written notice\n- During normal business hours\n- By the Data Provider or its authorized representatives"
+        },
+        {
+          "title": "6.2 Audit Procedures",
+          "content": "During an audit, the Data Buyer shall:\n- Provide access to all relevant records, systems, and documentation\n- Make knowledgeable personnel available to assist\n- Cooperate fully with reasonable audit requests\n- Maintain confidentiality of audit findings"
+        },
+        {
+          "title": "6.3 Audit Findings",
+          "content": "If an audit reveals any underpayment:\n- The Data Buyer shall promptly pay the deficiency plus interest\n- If the underpayment exceeds 5% of the amount due, the Data Buyer shall bear all reasonable costs of the audit\n- Systematic or intentional underpayment shall constitute a material breach"
+        },
+        {
+          "title": "6.4 Record Retention",
+          "content": "The Data Buyer shall maintain complete and accurate records related to Revenue-Generating Products and revenue share calculations for at least five (5) years from the end of each Reporting Period."
+        }
+      ]
+    },
+    {
+      "section": "7. Purchases and Payment",
+      "subsections": [
+        {
+          "title": "7.1 Initial License Fee",
+          "content": "The Data Buyer shall pay an initial license fee as specified at the time of purchase. This fee is separate from and in addition to the ongoing revenue share obligations."
+        },
+        {
+          "title": "7.2 Transaction Fees",
+          "content": "Any transaction fees associated with payments (e.g., blockchain network fees, Platform fees, wire transfer fees) are the responsibility of the Data Buyer."
+        }
+      ]
+    },
+    {
+      "section": "8. Warranties and Disclaimers",
+      "subsections": [
+        {
+          "title": "8.1 Provider's Warranties and Compliance Attestations",
+          "subsections": [
+            {
+              "title": "8.1.1 Rights and Authority",
+              "content": "- The Data Provider has full legal rights, title, and authority to provide the Licensed Data and grant the license as set forth herein.\n- The Licensed Data does not infringe, violate, or misappropriate any third party's intellectual property rights, privacy rights, or other proprietary rights."
+            },
+            {
+              "title": "8.1.2 Data Compliance and Privacy Laws",
+              "content": "- The Data Provider guarantees that the Licensed Data has been collected, processed, and prepared in compliance with all applicable data protection and privacy laws, including but not limited to:\n  - General Data Protection Regulation (GDPR)\n  - California Consumer Privacy Act (CCPA)\n  - Other applicable international, federal, state, and local privacy laws and regulations\n- For any data claimed to be anonymized or de-identified, the Data Provider warrants that such anonymization or de-identification has been performed in accordance with applicable legal standards and industry best practices."
+            },
+            {
+              "title": "8.1.3 GDPR-Specific Compliance",
+              "content": "For any Licensed Data claimed to be GDPR-compliant, the Data Provider specifically represents and warrants that:\n- All data has been processed in accordance with GDPR principles including lawful basis, purpose limitation, data minimization, accuracy, storage limitation, integrity, and confidentiality.\n- Any personal data has been properly anonymized using techniques that prevent re-identification.\n- Appropriate technical and organizational measures have been implemented to ensure data security.\n- All data subjects' rights have been respected in accordance with GDPR requirements."
+            },
+            {
+              "title": "8.1.4 Indemnification for Compliance Violations",
+              "content": "The Data Provider agrees to defend, indemnify, and hold harmless the Data Buyer and the Platform from any claims, damages, penalties, fines, or liabilities arising from:\n- Violations of data protection or privacy laws in the collection, processing, or provision of the Licensed Data\n- Failure to properly anonymize or de-identify data as claimed\n- Any misrepresentation regarding the compliance status of the Licensed Data"
+            }
+          ]
+        },
+        {
+          "title": "8.2 Disclaimer of Warranties",
+          "content": "EXCEPT AS EXPRESSLY PROVIDED IN SECTION 8.1, THE LICENSED DATA IS PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS. THE DATA PROVIDER AND THE PLATFORM MAKE NO OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, OR NON-INFRINGEMENT."
+        }
+      ]
+    },
+    {
+      "section": "9. Limitation of Liability",
+      "subsections": [
+        {
+          "title": "9.1 Exclusion of Certain Damages",
+          "content": "NEITHER THE DATA PROVIDER NOR THE PLATFORM SHALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUES, OR DATA, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR INABILITY TO USE THE LICENSED DATA."
+        },
+        {
+          "title": "9.2 Maximum Liability",
+          "content": "IN NO EVENT WILL THE AGGREGATE LIABILITY OF THE DATA PROVIDER OR THE PLATFORM EXCEED THE FEES PAID BY THE DATA BUYER FOR THE LICENSED DATA, REGARDLESS OF THE FORM OF THE CLAIM OR ACTION."
+        }
+      ]
+    },
+    {
+      "section": "10. Indemnification",
+      "subsections": [
+        {
+          "title": "10.1 Data Buyer's Indemnification",
+          "content": "The Data Buyer agrees to defend, indemnify, and hold harmless the Data Provider, the Platform, and their respective officers, directors, employees, and agents from and against any and all claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:\n- The Data Buyer's use or misuse of the Licensed Data;\n- Any breach of this Agreement by the Data Buyer or Authorized Users;\n- Violations of any laws or regulations in connection with the Data Buyer's use of the Licensed Data;\n- Any failure to accurately report or pay revenue share amounts."
+        },
+        {
+          "title": "10.2 Data Provider and Platform's Indemnification",
+          "content": "Where required by law or applicable contract, the Data Provider and/or the Platform will defend, indemnify, and hold harmless the Data Buyer from any third-party claim alleging that the Licensed Data (in the form provided) infringes or misappropriates such third party's intellectual property rights. This indemnification obligation shall not apply to the extent that the alleged infringement arises from the Data Buyer's misuse, modification, or unauthorized distribution of the Licensed Data."
+        }
+      ]
+    },
+    {
+      "section": "11. Term and Termination",
+      "subsections": [
+        {
+          "title": "11.1 Term",
+          "content": "This Agreement begins on the Effective Date and continues for {{agreement_term}}, unless earlier terminated in accordance with this Section. The \"Effective Date\" shall be the date of the completed purchase transaction on the Platform. The revenue share obligations shall continue for {{revenue_share_duration}} from first commercial deployment of any Revenue-Generating Product."
+        },
+        {
+          "title": "11.2 Termination for Breach",
+          "content": "Either the Data Provider or the Platform may terminate this Agreement immediately if the Data Buyer materially breaches any provision of this Agreement and fails to cure such breach within ten (10) days of receiving written notice of the breach."
+        },
+        {
+          "title": "11.3 Effects of Termination",
+          "content": "Upon termination of this Agreement for any reason:\n\n- The license granted to the Data Buyer in Section 2 is immediately revoked, except for the rights granted under Section 2.3.1 (Model Persistence Rights).\n- The Data Buyer shall cease all use of the Licensed Data in its raw form and securely delete or destroy all copies of the raw Licensed Data in its possession or control.\n- The Data Buyer may continue to use, deploy, and commercialize any AI models that were trained on the Licensed Data prior to termination, in accordance with Section 2.3.\n- The Data Buyer shall not train any new AI models using the Licensed Data after termination.\n- All obligations of confidentiality and non-disclosure under this Agreement shall survive termination.\n- Revenue share obligations shall continue for all Revenue-Generating Products developed during the term of this Agreement."
+        }
+      ]
+    },
+    {
+      "section": "12. Survival",
+      "content": "Any provisions of this Agreement that, by their nature, should survive termination shall remain in effect after termination, including but not limited to:\n- AI model persistence rights (Section 2.3.1)\n- Revenue share obligations (Section 5)\n- Audit rights (Section 6)\n- Record retention requirements (Section 6.4)\n- Confidentiality obligations\n- Warranties and representations\n- Indemnification provisions\n- Limitations of liability\n- Non-persistence obligations (subject to AI model exceptions)\n- Resale violations and liquidated damages provisions"
+    },
+    {
+      "section": "13. Governing Law and Dispute Resolution",
+      "subsections": [
+        {
+          "title": "13.1 Governing Law",
+          "content": "This Agreement shall be governed by and construed in accordance with the laws of Wyoming without regard to its conflict of law principles."
+        },
+        {
+          "title": "13.2 Dispute Resolution",
+          "content": "If a dispute arises, the parties will attempt to resolve it in good faith. If unresolved after thirty (30) days, any claim shall be finally settled by binding arbitration in Cheyenne, Wyoming. The arbitrator's decision is final and may be entered in any court with jurisdiction."
+        }
+      ]
+    },
+    {
+      "section": "14. Notices",
+      "content": "All notices required or permitted under this Agreement shall be in writing and shall be deemed given when sent by confirmed email. Notices from the Data Buyer shall be relayed by Portex via email (hello@portexai.com) or via the Portex user interface."
+    },
+    {
+      "section": "15. Assignment",
+      "content": "The Data Buyer may not assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the Data Provider. Any attempt to assign in violation of this Section is void."
+    },
+    {
+      "section": "16. Entire Agreement",
+      "content": "This Agreement, together with any addenda, schedules, or exhibits expressly incorporated herein, constitutes the entire agreement between the Parties with respect to its subject matter. It supersedes and replaces all prior or contemporaneous understandings, agreements, or representations, whether written or oral."
+    },
+    {
+      "section": "17. Severability",
+      "content": "If any provision of this Agreement is held to be invalid, illegal, or unenforceable by a court or other tribunal of competent jurisdiction, that provision shall be severed, and the remainder of this Agreement shall remain in full force and effect."
+    },
+    {
+      "section": "18. No Waiver",
+      "content": "No waiver of any breach of any provision of this Agreement shall be deemed a waiver of any subsequent breach, and no waiver shall be valid unless made in writing and signed by an authorized representative of the waiving Party."
+    },
+    {
+      "section": "19. Counterparts",
+      "content": "This Agreement may be executed in one or more counterparts, including via electronic signature or acceptance through the Platform, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument."
+    },
+    {
+      "section": "20. Acceptance",
+      "content": "By completing a purchase of the Licensed Data, You acknowledge that You have read, understood, and agree to abide by these Terms. If You do not agree, You must not purchase or use the Licensed Data."
+    }
+  ]
+} 

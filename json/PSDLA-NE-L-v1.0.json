@@ -1,0 +1,371 @@
+{
+  "license_type": "PSDLA-NE-L",
+  "version": "1.0",
+  "title": "Portex Standard Data License Agreement-Non-Exclusive Limited",
+  "effective_date": "May 23, 2025",
+  "parties": {
+    "platform": {
+      "name": "Portex",
+      "role": "Platform facilitator"
+    },
+    "data_provider": {
+      "role": "Provider of Licensed Data"
+    },
+    "data_buyer": {
+      "role": "Licensee"
+    }
+  },
+  "definitions": {
+    "licensed_data": "Any dataset or portion thereof, including documentation or metadata",
+    "authorized_users": "Employees, contractors, or agents authorized by Data Buyer",
+    "ai_models": "Neural networks, deep learning models, large language models, computer vision models, etc."
+  },
+  "license_terms": {
+    "type": "non-exclusive",
+    "duration": "1 year",
+    "territory": "global",
+    "transferable": false,
+    "revocable": true
+  },
+  "provider_specified_limitations": {
+    "permitted_uses": {
+      "template": {
+        "internal_analysis": "{{internal_analysis_scope}}",
+        "development_testing": "{{development_testing_scope}}",
+        "ai_training": "{{ai_training_scope}}",
+        "commercial_deployment": "{{commercial_deployment_scope}}",
+        "model_distribution": "{{model_distribution_scope}}"
+      }
+    },
+    "prohibited_uses": {
+      "template": {
+        "specific_prohibitions": "{{specific_prohibited_uses}}",
+        "industry_restrictions": "{{prohibited_industries}}",
+        "application_restrictions": "{{prohibited_applications}}"
+      }
+    },
+    "geographic_limitations": {
+      "template": {
+        "restricted_territories": "{{restricted_territories}}",
+        "excluded_jurisdictions": "{{excluded_jurisdictions}}"
+      }
+    },
+    "time_based_limitations": {
+      "template": {
+        "usage_duration": "{{usage_duration}}",
+        "access_hours": "{{access_hours}}",
+        "renewal_terms": "{{renewal_terms}}"
+      }
+    },
+    "user_access_limitations": {
+      "template": {
+        "max_users": "{{max_authorized_users}}",
+        "user_types": "{{permitted_user_types}}",
+        "access_controls": "{{required_access_controls}}"
+      }
+    },
+    "output_limitations": {
+      "template": {
+        "derivative_works": "{{derivative_work_restrictions}}",
+        "model_outputs": "{{model_output_restrictions}}",
+        "data_products": "{{data_product_restrictions}}"
+      }
+    },
+    "industry_limitations": {
+      "template": {
+        "permitted_industries": "{{permitted_industries}}",
+        "permitted_use_cases": "{{permitted_use_cases}}",
+        "industry_specific_terms": "{{industry_terms}}"
+      }
+    }
+  },
+  "ai_rights": {
+    "model_persistence": {
+      "perpetual_use": true,
+      "commercial_deployment": "{{commercial_deployment_terms}}",
+      "insights_generation": "{{insights_generation_scope}}"
+    },
+    "model_ownership": {
+      "architecture": true,
+      "weights": true,
+      "improvements": true,
+      "outputs": "{{output_restrictions}}"
+    }
+  },
+  "prohibited_uses": {
+    "redistribution": true,
+    "reverse_engineering": true
+  },
+  "compliance": {
+    "gdpr_required": false,
+    "ccpa_required": false,
+    "audit_rights": true
+  },
+  "termination": {
+    "breach_notice_period": "10 days",
+    "effects": {
+      "data_deletion_required": true,
+      "model_rights_survive": true
+    }
+  },
+  "governing_law": "Wyoming",
+  "dispute_resolution": "Arbitration in Cheyenne, Wyoming",
+  "appendix_template": {
+    "title": "Appendix A: Data Provider-Specified Limitations and Permitted Uses",
+    "sections": [
+      {
+        "title": "A.1 Permitted Uses",
+        "template": "The Licensed Data may be used for the following purposes:\n{{permitted_uses_list}}\n\nSpecific conditions and scope for each permitted use:\n{{permitted_uses_conditions}}"
+      },
+      {
+        "title": "A.2 Prohibited Uses",
+        "template": "The Licensed Data shall not be used for:\n{{prohibited_uses_list}}\n\nAdditional restrictions:\n{{additional_restrictions}}"
+      },
+      {
+        "title": "A.3 Geographic Limitations",
+        "template": "Geographic scope and restrictions:\n{{geographic_scope}}\n\nExcluded territories:\n{{excluded_territories}}"
+      },
+      {
+        "title": "A.4 Time-Based Limitations",
+        "template": "Duration of permitted use:\n{{usage_duration}}\n\nAccess restrictions:\n{{time_restrictions}}"
+      },
+      {
+        "title": "A.5 User and Access Limitations",
+        "template": "Maximum number of Authorized Users:\n{{max_users}}\n\nUser types and roles:\n{{user_roles}}\n\nAccess control requirements:\n{{access_controls}}"
+      },
+      {
+        "title": "A.6 Output and Derivative Work Limitations",
+        "template": "Restrictions on derivative works:\n{{derivative_restrictions}}\n\nModel output limitations:\n{{output_limitations}}"
+      },
+      {
+        "title": "A.7 Industry or Field of Use Limitations",
+        "template": "Permitted industries:\n{{permitted_industries}}\n\nPermitted applications:\n{{permitted_applications}}"
+      },
+      {
+        "title": "A.8 Additional Terms and Conditions",
+        "template": "Additional requirements:\n{{additional_requirements}}\n\nSpecial conditions:\n{{special_conditions}}"
+      }
+    ]
+  },
+  "license_text": [
+    {
+      "section": "Introduction",
+      "content": "This Data License Agreement (the \"Agreement\") is entered into by and between:\n\n- **Portex** (\"Platform\"), a platform that enables the purchase of datasets via stablecoins, and\n- The **\"Data Provider,\"** who makes available certain datasets (\"Licensed Data\") for purchase on the Platform, and\n- The **\"Data Buyer\"** (also referred to as \"Licensee\" or \"You\"), who purchases the right to access and use the Licensed Data from the Data Provider via the Platform.\n\nPortex acts as a facilitator between the Data Provider and the Data Buyer and is not a direct party to the license terms except as stated herein. By accessing or using the Licensed Data, You confirm that You have read, understood, and agree to be bound by these Terms. If You do not agree with these Terms, You must not purchase or access the Licensed Data."
+    },
+    {
+      "section": "1. Definitions",
+      "content": "1. **\"Licensed Data:\"** Any dataset or portion thereof, including any documentation or metadata, purchased through the Platform.\n2. **\"Data Buyer\" or \"Licensee:\"** The individual or entity that acquires the right to use the Licensed Data under this Agreement.\n3. **\"Data Provider:\"** The individual or entity that owns or has rights to the Licensed Data and grants the License under the terms of this Agreement.\n4. **\"Authorized Users:\"** Employees, contractors, or agents authorized by the Data Buyer to access and use the Licensed Data solely for the Permitted Uses defined in Section 2.\n5. **\"Confidential Information:\"** Any non-public information that is disclosed under this Agreement, including the Licensed Data, technical information, or business information that is either marked or inferred from the Licensed Data, including the dataset itself.\n6. **\"Platform:\"** The Portex platform that facilitates the listing, purchase, and delivery of datasets via a User Interface, API, or AI agent.\n7. **\"AI Models:\"** Any artificial intelligence or machine learning models, including but not limited to neural networks, deep learning models, large language models, computer vision models, or other computational models that learn patterns from data through training processes, along with their associated weights, biases, parameters, and architectures."
+    },
+    {
+      "section": "2. Grant of License",
+      "subsections": [
+        {
+          "title": "2.1 Scope of License",
+          "content": "Subject to the terms and conditions of this Agreement and upon receipt of full payment, the Data Provider grants the Data Buyer a limited, non-exclusive, non-transferable, and revocable license to access and use the Licensed Data solely for the Permitted Uses set forth below."
+        },
+        {
+          "title": "2.2 Permitted Uses and Data Provider-Specified Limitations",
+          "content": "The Data Buyer's use of the Licensed Data is subject to the specific limitations and permitted uses defined by the Data Provider in Appendix A of this Agreement. The Data Provider shall specify in Appendix A the scope of permitted uses, any restrictions, and any additional terms that apply to the Licensed Data. These Data Provider-specified terms shall govern the use of the Licensed Data and prevail over any general permissions that might otherwise be implied.\n\nThe Data Buyer must strictly adhere to all limitations set forth in Appendix A. Any use of the Licensed Data outside the scope explicitly permitted in Appendix A is prohibited and constitutes a material breach of this Agreement."
+        },
+        {
+          "title": "2.3 Territory",
+          "content": "The license granted herein is valid globally unless restricted by any applicable laws or regulations specific to the Data Buyer's or Data Provider's jurisdictions."
+        }
+      ]
+    },
+    {
+      "section": "3. Prohibited Uses",
+      "subsections": [
+        {
+          "title": "3.1 Non-Redistribution",
+          "content": "The Data Buyer shall not sell, lease, sublicense, distribute, share, or otherwise make the Licensed Data available to any third party (other than Authorized Users) in its raw or substantially similar form. Any publication or disclosure of the Licensed Data beyond the Data Buyer's organization is strictly prohibited."
+        },
+        {
+          "title": "3.2 Non-Persistence",
+          "content": "Unless otherwise specified by the Data Provider, the Data Buyer agrees to securely delete, destroy, or otherwise render the Licensed Data inaccessible upon the completion of its intended use or upon termination of this Agreement, whichever comes first. Any copies or backups shall also be deleted or destroyed. This deletion requirement does not apply to:\n\n- AI/ML models that have been trained using the Licensed Data, as set forth in Section 2.3.1\n- Transformed representations of the data embedded within model weights, biases, and parameters\n- Outputs, predictions, or insights generated by AI models trained on the Licensed Data"
+        },
+        {
+          "title": "3.3 Ethical Use and Compliance",
+          "content": "The Data Buyer shall use the Licensed Data only for lawful and ethical purposes, in compliance with all applicable laws, regulations, and industry best practices. The Data Buyer shall not use the Licensed Data to promote or engage in any activity that is deceptive, fraudulent, defamatory, harmful, or otherwise illegal."
+        },
+        {
+          "title": "3.4 Reverse Engineering",
+          "content": "The Data Buyer shall not disassemble, decompile, or reverse engineer the Licensed Data or any underlying technology associated with it. This restriction includes any attempt to reconstruct source data or analytics methodology from aggregated or derived results."
+        }
+      ]
+    },
+    {
+      "section": "4. Resale Violations and Liquidated Damages",
+      "subsections": [
+        {
+          "title": "4.1 Prohibition on Resale",
+          "content": "The Data Buyer acknowledges and agrees that any resale, redistribution, sublicensing, or unauthorized transfer of the Licensed Data to any third party constitutes a material breach of this Agreement and causes significant harm to the Data Provider's business interests and the integrity of the Platform's marketplace."
+        },
+        {
+          "title": "4.2 Liquidated Damages",
+          "content": "The parties acknowledge that damages resulting from unauthorized resale of the Licensed Data would be difficult to calculate and that the following liquidated damages provision represents a reasonable estimate of such damages:\n\n- In the event the Data Buyer resells, redistributes, or otherwise transfers the Licensed Data to any third party in violation of this Agreement, the Data Buyer shall pay liquidated damages equal to one hundred times (100x) the original purchase price paid for the Licensed Data.\n- These liquidated damages are in addition to, and not in lieu of, any other remedies available to the Data Provider or the Platform at law or in equity."
+        },
+        {
+          "title": "4.3 Indemnification for Resale Violations",
+          "content": "In addition to liquidated damages, the Data Buyer agrees to defend, indemnify, and hold harmless the Data Provider and the Platform from any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising from or related to:\n\n- The Data Buyer's unauthorized resale or distribution of the Licensed Data\n- Any third party's use of the Licensed Data obtained through the Data Buyer's breach\n- Any reputational harm or loss of business resulting from the unauthorized distribution"
+        },
+        {
+          "title": "4.4 Enforcement and Detection",
+          "content": "The Data Provider and Platform reserve the right to implement technical measures to detect unauthorized distribution or resale of the Licensed Data, including but not limited to watermarking, fingerprinting, or other tracking technologies."
+        }
+      ]
+    },
+    {
+      "section": "5. Purchases and Payment",
+      "subsections": [
+        {
+          "title": "5.1 Purchases are Final",
+          "content": "All purchases of the Licensed Data through the Platform using stablecoins or other accepted payment methods are final. No refunds will be issued for any reason except as explicitly stated in this Agreement or required by applicable law."
+        },
+        {
+          "title": "5.2 Transaction Fees",
+          "content": "Any transaction fees associated with the purchase (e.g., blockchain network fees, Platform fees) are the responsibility of the Data Buyer."
+        }
+      ]
+    },
+    {
+      "section": "6. Intellectual Property Rights",
+      "subsections": [
+        {
+          "title": "6.1 Ownership",
+          "content": "All rights, title, and interest in and to the Licensed Data, including any intellectual property rights therein, remain with the Data Provider or its licensors. Nothing in this Agreement transfers or assigns ownership of the Licensed Data to the Data Buyer."
+        },
+        {
+          "title": "6.2 Derivative Works",
+          "content": "Unless expressly authorized, the Data Buyer shall not create derivative works based on the Licensed Data for redistribution. Any derivative works created internally must adhere to the Non-Redistribution clause and remain confidential to the Data Buyer."
+        },
+        {
+          "title": "6.3 AI Model Ownership",
+          "content": "Notwithstanding Section 6.1, the Data Buyer shall own all rights, title, and interest in and to any AI models trained using the Licensed Data, including but not limited to:\n- The model architecture, weights, biases, and parameters\n- Any fine-tuning, optimizations, or improvements made to such models\n- Outputs, predictions, and insights generated by such models\n- Any intellectual property rights in the trained models\n\nThe Data Provider shall have no claim to ownership of AI models trained on the Licensed Data, provided such models do not contain or enable extraction of the Licensed Data in its raw or substantially similar form."
+        }
+      ]
+    },
+    {
+      "section": "7. Confidentiality and Data Protection",
+      "subsections": [
+        {
+          "title": "7.1 Confidentiality Obligations",
+          "content": "The Data Buyer agrees to maintain the Licensed Data, along with any other Confidential Information disclosed under this Agreement, in strict confidence. The Data Buyer shall use the same degree of care in protecting the Licensed Data as it uses for its own confidential information, but in no event less than a reasonable standard of care."
+        },
+        {
+          "title": "7.2 Use of Confidential Information",
+          "content": "The Data Buyer shall not disclose the Confidential Information to any person or entity other than Authorized Users who have a need to know for the Permitted Uses. The Data Buyer shall ensure that Authorized Users are bound by confidentiality obligations no less strict than those in this Agreement."
+        },
+        {
+          "title": "7.3 Security Measures",
+          "content": "The Data Buyer agrees to implement and maintain administrative, technical, and physical safeguards to protect the Licensed Data against unauthorized or accidental access, use, disclosure, alteration, or destruction."
+        },
+        {
+          "title": "7.4 Data Breach Notification",
+          "content": "If the Data Buyer becomes aware of any unauthorized access to or disclosure of the Licensed Data, it shall promptly notify the Data Provider and the Platform, providing all available details and cooperating in any subsequent investigation or remediation."
+        }
+      ]
+    },
+    {
+      "section": "8. Warranties and Disclaimers",
+      "subsections": [
+        {
+          "title": "8.1 Provider's Warranties",
+          "content": "The Data Provider represents that it has the right to provide the Licensed Data and grant the license as set forth herein. The Data Provider does not warrant that the Licensed Data is error-free, complete, or will meet the Data Buyer's specific requirements."
+        },
+        {
+          "title": "8.2 Disclaimer of Warranties",
+          "content": "EXCEPT AS EXPRESSLY PROVIDED IN SECTION 8.1, THE LICENSED DATA IS PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS. THE DATA PROVIDER AND THE PLATFORM MAKE NO OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, OR NON-INFRINGEMENT."
+        }
+      ]
+    },
+    {
+      "section": "9. Limitation of Liability",
+      "subsections": [
+        {
+          "title": "9.1 Exclusion of Certain Damages",
+          "content": "NEITHER THE DATA PROVIDER NOR THE PLATFORM SHALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUES, OR DATA, ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR INABILITY TO USE THE LICENSED DATA."
+        },
+        {
+          "title": "9.2 Maximum Liability",
+          "content": "IN NO EVENT WILL THE AGGREGATE LIABILITY OF THE DATA PROVIDER OR THE PLATFORM EXCEED THE FEES PAID BY THE DATA BUYER FOR THE LICENSED DATA, REGARDLESS OF THE FORM OF THE CLAIM OR ACTION."
+        }
+      ]
+    },
+    {
+      "section": "10. Indemnification",
+      "subsections": [
+        {
+          "title": "10.1 Data Buyer's Indemnification",
+          "content": "The Data Buyer agrees to defend, indemnify, and hold harmless the Data Provider, the Platform, and their respective officers, directors, employees, and agents from and against any and all claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:\n- The Data Buyer's use or misuse of the Licensed Data;\n- Any breach of this Agreement by the Data Buyer or Authorized Users;\n- Violations of any laws or regulations in connection with the Data Buyer's use of the Licensed Data."
+        },
+        {
+          "title": "10.2 Data Provider and Platform's Indemnification",
+          "content": "Where required by law or applicable contract, the Data Provider and/or the Platform will defend, indemnify, and hold harmless the Data Buyer from any third-party claim alleging that the Licensed Data (in the form provided) infringes or misappropriates such third party's intellectual property rights. This indemnification obligation shall not apply to the extent that the alleged infringement arises from the Data Buyer's misuse, modification, or unauthorized distribution of the Licensed Data."
+        }
+      ]
+    },
+    {
+      "section": "11. Term and Termination",
+      "subsections": [
+        {
+          "title": "11.1 Term",
+          "content": "This Agreement begins on the Effective Date and continues for a period of one (1) year, unless earlier terminated in accordance with this Section. The \"Effective Date\" shall be the date of the completed purchase transaction on the Platform."
+        },
+        {
+          "title": "11.2 Termination for Breach",
+          "content": "Either the Data Provider or the Platform may terminate this Agreement immediately if the Data Buyer materially breaches any provision of this Agreement and fails to cure such breach within ten (10) days of receiving written notice of the breach."
+        },
+        {
+          "title": "11.3 Effects of Termination",
+          "content": "Upon termination of this Agreement for any reason:\n\n- The license granted to the Data Buyer in Section 2 is immediately revoked, except for the rights granted under Section 2.3.1 (Model Persistence Rights).\n- The Data Buyer shall cease all use of the Licensed Data in its raw form and securely delete or destroy all copies of the raw Licensed Data in its possession or control.\n- The Data Buyer may continue to use, deploy, and commercialize any AI models that were trained on the Licensed Data prior to termination, in accordance with Section 2.3.\n- The Data Buyer shall not train any new AI models using the Licensed Data after termination.\n- All obligations of confidentiality and non-disclosure under this Agreement shall survive termination."
+        }
+      ]
+    },
+    {
+      "section": "12. Survival",
+      "content": "Any provisions of this Agreement that, by their nature, should survive termination shall remain in effect after termination, including but not limited to:\n- AI model persistence rights (Section 2.3.1)\n- Confidentiality obligations\n- Warranties and representations\n- Indemnification provisions\n- Limitations of liability\n- Non-persistence obligations (subject to AI model exceptions)\n- Resale violations and liquidated damages provisions"
+    },
+    {
+      "section": "13. Governing Law and Dispute Resolution",
+      "subsections": [
+        {
+          "title": "13.1 Governing Law",
+          "content": "This Agreement shall be governed by and construed in accordance with the laws of Wyoming without regard to its conflict of law principles."
+        },
+        {
+          "title": "13.2 Dispute Resolution",
+          "content": "If a dispute arises, the parties will attempt to resolve it in good faith. If unresolved after thirty (30) days, any claim shall be finally settled by binding arbitration in Cheyenne, Wyoming. The arbitrator's decision is final and may be entered in any court with jurisdiction."
+        }
+      ]
+    },
+    {
+      "section": "14. Notices",
+      "content": "All notices required or permitted under this Agreement shall be in writing and shall be deemed given when sent by confirmed email. Notices from the Data Buyer shall be relayed by Portex via email (hello@portexai.com) or via the Portex user interface."
+    },
+    {
+      "section": "15. Assignment",
+      "content": "The Data Buyer may not assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the Data Provider. Any attempt to assign in violation of this Section is void."
+    },
+    {
+      "section": "16. Entire Agreement",
+      "content": "This Agreement, together with any addenda, schedules, or exhibits expressly incorporated herein, constitutes the entire agreement between the Parties with respect to its subject matter. It supersedes and replaces all prior or contemporaneous understandings, agreements, or representations, whether written or oral."
+    },
+    {
+      "section": "17. Severability",
+      "content": "If any provision of this Agreement is held to be invalid, illegal, or unenforceable by a court or other tribunal of competent jurisdiction, that provision shall be severed, and the remainder of this Agreement shall remain in full force and effect."
+    },
+    {
+      "section": "18. No Waiver",
+      "content": "No waiver of any breach of any provision of this Agreement shall be deemed a waiver of any subsequent breach, and no waiver shall be valid unless made in writing and signed by an authorized representative of the waiving Party."
+    },
+    {
+      "section": "19. Counterparts",
+      "content": "This Agreement may be executed in one or more counterparts, including via electronic signature or acceptance through the Platform, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument."
+    },
+    {
+      "section": "20. Acceptance",
+      "content": "By completing a purchase of the Licensed Data, You acknowledge that You have read, understood, and agree to abide by these Terms. If You do not agree, You must not purchase or use the Licensed Data."
+    }
+  ]
+} 
